@@ -1,0 +1,7 @@
+1.	To run a script file type @ symbol followed by give entire path for example:
+@C:\oracle\21009ABC\smallrelations.sql
+2.	replace the folder and file names as required and run the script files
+3.	Script file is the one that contains all DDL and DML commands required to be typed in command line of SQL plus. Instead of individually running, we can use script files to run them all at once.   
+4.	The script files are only for questions 9 onwards.
+5.	First run university , then small relations file.
+
