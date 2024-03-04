@@ -166,6 +166,11 @@ select title
 from all_courses;
 -- Q20
 create view department_total_salary as 
-select instructor.dept_name , sum(salary) as total_salary
+select instructor.dept_name , sum(salary) as total_salary 
 from instructor 
-group by dept_name;
+group by dept_name , xyz;
+
+
+select * from instructor;
+select * from department;
+select * from instructor natural join department;

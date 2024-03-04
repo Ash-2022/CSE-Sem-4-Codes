@@ -12,7 +12,7 @@ create table employee1 (
 /* Q2 */
 create table Department1 (
 	DeptNo int primary key,
-	DeptName varchar(50) unique
+	DeptName varchar(50) not null 
 );
 
 /* Q3 */
@@ -87,7 +87,7 @@ where Salary > (
 /* Q18 */
 select name 
 from instructor
-where dept_name like '%hy%';
+where dept_name like 'h%y%';
 
 /* Q19 */
 select name , length(name)
